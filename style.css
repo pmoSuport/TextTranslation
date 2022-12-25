@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    text-align: center;
+}
+
+.container h3{
+    font-size: 4rem;
+    color: #ffca21;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.heading{
+    margin: 5px 20px 20px 20px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.heading textarea{
+    position: relative;
+    border: 2px solid #ffca21;
+    border-radius: 8px;
+    width: 500px;
+    height: 350px;
+    font-size: 24px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+textarea::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+textarea::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+textarea::-webkit-scrollbar-thumb {
+    background: #f7c420;
+    border-radius: 5px;
+  }
+  
+
+.heading button{
+    position: absolute;
+    top: 18px;
+    left: 610px;
+    height: 35px;
+    width: 35px;
+    font-size: 23px;
+    border:none;
+    background-color:#ffca21;
+    color: white;
+    font-weight: 600;
+}
+
+
+.heading div{
+    border: 2px solid #f7c420;
+    width: 500px;
+    height: 350px;
+    border-left: 0;
+    border-radius: 0px 8px 8px 0;
+    overflow: auto;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    font-size: 23px;
+}
+
+footer{
+    background-image: linear-gradient(45deg,#f7c420,#f7cb44,#fad325);
+    color: white;
+    margin-top:43px ;
+    height: 140px;
+}
+footer p{
+    margin: 0.5px 0px;
+    padding: 10px;
+    font-size:22px;
+    font-weight: 600;
+    font-variant:small-caps;
+    line-height: 1.2;
+}
+
+footer a{
+    margin: 10px;
+    text-decoration: none;
+    color: #454545;
+    font-weight: 500;
+    border: 2px solid #454545;
+    border-radius: 5px ;
+    padding: 2px 9px;
+}
+
+footer a:hover{
+    border: none;
+    color: #ffca21;
+    background-color: white;
+    margin: 12px;
+    font-weight: 1000;
+    /* border-radius: 5px; */
+    box-shadow: 0 0 2px white;
+}
